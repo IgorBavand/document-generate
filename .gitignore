@@ -1,0 +1,51 @@
+# Maven build directory
+/target/
+
+# IntelliJ IDEA
+/.idea/
+*.iml
+
+# Eclipse project files
+/.project
+/.classpath
+/.settings/
+
+# NetBeans project files
+/nbproject/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Generated files
+*.jar.original
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Dependency directories
+/.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Spring Boot application logs
+spring.log
+
+# Maven wrapper files
+/mvnw
+/mvnw.cmd
+/.mvn/wrapper/maven-wrapper.jar
+
+# Java Keystore file
+*.jks
