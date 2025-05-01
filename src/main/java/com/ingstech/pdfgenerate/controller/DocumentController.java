@@ -54,7 +54,7 @@ public class DocumentController {
         } catch (Exception e) {
             e.printStackTrace();
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
-                    .body(("Erro ao gerar PDF: " + e.getMessage()).getBytes());
+                    .body(("Erro ao gerar PDF: " + e.getMessage()).getBytes(java.nio.charset.StandardCharsets.UTF_8));
         }
     }
 
